@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kontent Yozuvchisi Bo'lish</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f7f7f7;
+      color: #222;
+      line-height: 1.6;
+    }
+    
+    /* Motivational Banner */
+    .hero-banner {
+      width: 100%;
+      height: 500px;
+      position: relative;
+      background: linear-gradient(to right, rgba(0, 102, 204, 0.85), rgba(0, 82, 184, 0.9)), 
+                  url('https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+    }
+    
+    .banner-content {
+      max-width: 1200px;
+      width: 90%;
+      padding: 30px;
+    }
+    
+    /* Main Content Container */
+    .container {
+      max-width: 1200px;
+      width: 90%;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    h2 {
+      color: #0066cc;
+      margin: 1.8rem 0 1.2rem;
+      font-size: 1.8rem;
+      position: relative;
+      padding-bottom: 8px;
+    }
+    
+    h2::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 60px;
+      height: 3px;
+      background: #0066cc;
+    }
+    
+    p, li {
+      margin-bottom: 1.2rem;
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+    
+    ul {
+      padding-left: 2rem;
+      margin-bottom: 1.8rem;
+    }
+    
+    li {
+      margin-bottom: 0.8rem;
+      position: relative;
+    }
+    
+    li::before {
+      content: '•';
+      color: #0066cc;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+    
+    /* Media Elements */
+    .media-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.8rem;
+      margin: 2.5rem 0;
+    }
+    
+    iframe {
+      width: 100%;
+      height: 315px;
+      border-radius: 8px;
+      border: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    
+    iframe:hover {
+      transform: translateY(-5px);
+    }
+    
+    /* Button */
+    .cta-button {
+      display: inline-block;
+      padding: 14px 36px;
+      background-color: white;
+      color: #0066cc;
+      font-size: 1.1rem;
+      font-weight: bold;
+      border-radius: 30px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+      text-decoration: none;
+      margin-top: 1.5rem;
+    }
+    
+    .cta-button:hover {
+      background: #0066cc;
+      color: white;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      .hero-banner {
+        height: 400px;
+      }
+      
+      h1 {
+        font-size: 2rem;
+      }
+      
+      h2 {
+        font-size: 1.5rem;
+      }
+      
+      .container {
+        padding: 1.5rem;
+      }
+      
+      .media-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Modern Hero Banner -->
+<div class="hero-banner">
+  <div class="banner-content">
+    <h1 style="font-size: 3rem; text-shadow: 1px 1px 4px rgba(0,0,0,0.3);">Kontent Yozuvchisi Bo'lish Yo'llari</h1>
+    <p style="font-size: 1.4rem; margin: 25px 0 35px; line-height: 1.6; text-shadow: 1px 1px 2px rgba(0,0,0,0.2);">
+      So'z kuchini o'rganing, o'quvchilarga ta'sir qiling, <br> professional yozuvchi sifatida shakillaning!
+    </p>
+    <a href="#content-start" class="cta-button">Darslarni Ko'rish →</a>
+  </div>
+</div>
+
+<div class="container" id="content-start">
+
+  <h1>Qanday qilib kontent yozuvchisi bo'lish mumkin?</h1>
+  <p>Matnlar orqali ta'sir qilish, reklama, blog va saytlar uchun maqola yozishni o'rganing.</p>
+
+  <h2>1. Kontent yozuvi nima?</h2>
+  <p>Kontent yozuvi — bu onlayn platformalar, bloglar, ijtimoiy tarmoqlar, saytlar yoki reklama uchun matnlar yozish san'atidir. Yaxshi kontent yozuvchi o'quvchini jalb qiladigan, ma'lumot beradigan va harakatga undaydigan matnlar yozadi.</p>
+
+  <h2>2. Boshlash uchun nimalar kerak?</h2>
+  <ul>
+    <li>O'zbek yoki boshqa tilda savodli va lo'nda yozish qobiliyati</li>
+    <li>Maqsadli auditoriyani tushunish</li>
+    <li>SEO asoslarini bilish (kalit so'zlar, sarlavhalar, strukturali matn)</li>
+    <li>Qisqa, ravon, e'tibor jalb qiluvchi yozish uslubi</li>
+    <li>Turli kontent formatlarini bilish (blog post, reklama matni, SEO matn)</li>
+  </ul>
+
+  <h2>3. YouTube darslari</h2>
+  <p>Quyidagi videolar orqali kontent yozuvchilik asoslarini o'rganishingiz mumkin:</p>
+
+  <div class="media-grid">
+    <iframe src="https://www.youtube.com/embed/j4PjscpmP8s" title="Kontent yozish asoslari - O'zbek tilida"></iframe>
+    <iframe src="https://www.youtube.com/embed/qCCjTyTAK1U" title="SEO va blog yozuvi - O'zbekcha dars"></iframe>
+    </div>
+
+  <h2>4. Foydali maslahatlar</h2>
+  <ul>
+    <li>Har kuni yozishga vaqt ajrating — kichik blog postlar yozib mashq qiling</li>
+    <li>Turli uslubdagi matnlarni tahlil qiling (reklama, blog, press-reliz)</li>
+    <li>O'zingizning portfelingizni yaratishni boshlang (Google Docs, Medium, Notion)</li>
+    <li>Matnni qisqa, lo'nda va aniq qilib yozishga odatlaning</li>
+    <li>So'z boyligini oshiring va sinonimlardan foydalang</li>
+    <li>Har bir matnni bir necha marta o'qib, tahrirlang</li>
+  </ul>
+
+</div>
+
+</body>
+</html>

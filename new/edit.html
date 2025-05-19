@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Video Montajni O'rganish</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+      line-height: 1.6;
+    }
+    
+    /* Motivational Banner */
+    .hero-banner {
+      width: 100%;
+      height: 500px;
+      position: relative;
+      background: linear-gradient(to right, rgba(255, 87, 34, 0.85), rgba(230, 74, 25, 0.9)), 
+                  url('https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+    }
+    
+    .banner-content {
+      max-width: 1200px;
+      width: 90%;
+      padding: 30px;
+    }
+    
+    /* Main Content Container */
+    .container {
+      max-width: 1200px;
+      width: 90%;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    }
+    
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    
+    h2 {
+      color: #ff5722;
+      margin: 1.8rem 0 1.2rem;
+      font-size: 1.8rem;
+      position: relative;
+      padding-bottom: 8px;
+    }
+    
+    h2::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 60px;
+      height: 3px;
+      background: #ff5722;
+    }
+    
+    p, li {
+      margin-bottom: 1.2rem;
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+    
+    ul {
+      padding-left: 2rem;
+      margin-bottom: 1.8rem;
+    }
+    
+    li {
+      margin-bottom: 0.8rem;
+      position: relative;
+    }
+    
+    li::before {
+      content: '•';
+      color: #ff5722;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+    
+    /* Media Elements */
+    .media-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.8rem;
+      margin: 2.5rem 0;
+    }
+    
+    iframe {
+      width: 100%;
+      height: 315px;
+      border-radius: 8px;
+      border: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    
+    iframe:hover {
+      transform: translateY(-5px);
+    }
+    
+    /* Button */
+    .cta-button {
+      display: inline-block;
+      padding: 14px 36px;
+      background-color: white;
+      color: #ff5722;
+      font-size: 1.1rem;
+      font-weight: bold;
+      border-radius: 30px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+      text-decoration: none;
+      margin-top: 1.5rem;
+    }
+    
+    .cta-button:hover {
+      background: #ff5722;
+      color: white;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      .hero-banner {
+        height: 400px;
+      }
+      
+      h1 {
+        font-size: 2rem;
+      }
+      
+      h2 {
+        font-size: 1.5rem;
+      }
+      
+      .container {
+        padding: 1.5rem;
+      }
+      
+      .media-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Modern Hero Banner -->
+<div class="hero-banner">
+  <div class="banner-content">
+    <h1 style="font-size: 3rem; text-shadow: 1px 1px 4px rgba(0,0,0,0.3);">Professional Video Montajchi Bo'lish</h1>
+    <p style="font-size: 1.4rem; margin: 25px 0 35px; line-height: 1.6; text-shadow: 1px 1px 2px rgba(0,0,0,0.2);">
+      Videolarni jonli va jozibador qiling, <br> kreativlik va texnologiyani uyg'unlashtiring!
+    </p>
+    <a href="#content-start" class="cta-button">Darslarni Ko'rish →</a>
+  </div>
+</div>
+
+<div class="container" id="content-start">
+
+  <h1>Qanday qilib video montajchi bo'lish mumkin?</h1>
+  <p>Videoni tahrirlash, effektlar qo'shish va sifatli kontent yaratishni o'rganing.</p>
+
+  <h2>1. Video montaj nima?</h2>
+  <p>Video montaj — bu videoni kesish, qo'shish, effektlar, ovoz va matn qo'shish orqali tayyor kontentga aylantirish jarayonidir. YouTube, Instagram, reklama va kurslar uchun videolar shu orqali yaratiladi.</p>
+
+  <h2>2. Boshlash uchun nimalar kerak?</h2>
+  <ul>
+    <li>Kompyuter yoki telefon (yaxshi grafik imkoniyatli bo'lsa yaxshi)</li>
+    <li>Video tahrir dasturlari: CapCut, Adobe Premiere Pro, Filmora, VN, Kinemaster</li>
+    <li>Sabr va amaliy mashqlar</li>
+    <li>Vizual estetikani his qilish va ovoz bilan ishlash ko'nikmasi</li>
+    <li>Color grading va color correction asoslari</li>
+  </ul>
+
+  <h2>3. YouTube darslari</h2>
+  <p>Quyidagi videolar orqali video montajni bosqichma-bosqich o'rganishingiz mumkin:</p>
+
+  <div class="media-grid">
+    <iframe src="https://www.youtube.com/embed/IoD-zeVB6uk" title="CapCut video tahrirlash o'zbek tilida"></iframe>
+    <iframe src="https://www.youtube.com/embed/lGAjHQeqbVY" title="Adobe Premiere Pro darslari - O'zbekcha"></iframe>
+    <iframe src="https://www.youtube.com/embed/YBmgirzFpAQ" title="YouTube uchun video tayyorlash - O'zbek tilida"></iframe>
+    <iframe src="https://www.youtube.com/embed/SeBLsdE8vj0" title="Adobe Premiere Pro darslari - O'zbekcha"></iframe>
+  </div>
+
+  <h2>4. Foydali maslahatlar</h2>
+  <ul>
+    <li>Videolarni qisqa, ravon va jozibador tahrirlang</li>
+    <li>Intro va outro yaratishni o'rganing</li>
+    <li>Videoga fon musiqa va animatsiyalar qo'shib ko'ring</li>
+    <li>Sifatli va professional effektlarni sinab ko'ring</li>
+    <li>Har kuni kichik bir video tahrir qilib o'zingizni mashq qiling</li>
+    <li>Color grading va motion graphicsni o'rganing</li>
+  </ul>
+
+</div>
+
+</body>
+</html>

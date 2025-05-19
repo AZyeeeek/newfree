@@ -1,0 +1,1338 @@
+.mac-book-pro141-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.mac-book-pro141-mac-book-pro141 {
+  width: 100%;
+  height: 1748px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.mac-book-pro141-rectangle1 {
+  top: 0px;
+  left: 0px;
+  width: 1512px;
+  height: 114px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-frame76 {
+  gap: 48px;
+  top: 45px;
+  left: 692px;
+  width: 473px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.mac-book-pro141-text10 {
+  color: rgb(0, 0, 0);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-text11 {
+  color: rgb(0, 0, 0);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-text12 {
+  color: rgb(0, 0, 0);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-text13 {
+  color: rgb(0, 0, 0);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-maskgroup {
+  top: -135px;
+  left: 0px;
+  width: 1512px;
+  height: 981px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.mac-book-pro141-object1 {
+  top: 777px;
+  left: 939px;
+  width: 267px;
+  height: 72px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-object2 {
+  top: 777px;
+  left: 1123px;
+  width: 267px;
+  height: 72px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-portal1 {
+  top: 224px;
+  left: 1386px;
+  width: 46px;
+  height: 46px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-portal2 {
+  top: 512px;
+  left: 1386px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-portal3 {
+  top: 587px;
+  left: 897px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-portal4 {
+  top: 224px;
+  left: 985px;
+  width: 36px;
+  height: 36px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-group781 {
+  top: 986px;
+  right: 49px;
+  width: 1352px;
+  height: 110px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.mac-book-pro141-text14 {
+  top: 33px;
+  left: 1px;
+  color: rgb(36, 39, 44);
+  width: 777px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Caprasimo";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-line291 {
+  top: 110px;
+  left: 0px;
+  width: 1352px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-talentsection {
+  top: 85px;
+  left: -30px;
+  width: 1610px;
+  height: 885px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-blue-lighter);
+}
+ 
+.mac-book-pro141-group782 {
+  top: 62px;
+  left: 74px;
+  width: 1352px;
+  height: 126px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.mac-book-pro141-text15 {
+  left: 5px;
+  color: rgb(36, 39, 44);
+  width: 453px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Caprasimo";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-text16 {
+  top: 89px;
+  left: 5px;
+  color: rgb(36, 39, 44);
+  width: 257px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-line292 {
+  top: 126px;
+  left: 0px;
+  width: 1352px;
+  height: 1px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-group162725 {
+  top: 220px;
+  left: 79px;
+  width: 419.1700134277344px;
+  height: 163px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.mac-book-pro141image46743281 {
+  top: 31px;
+  left: 311px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-text17 {
+  top: 40px;
+  left: 40px;
+  color: var(--dl-color-black-lighter);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-frame451 {
+  gap: 48px;
+  top: 99px;
+  left: 40px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.mac-book-pro141-frame441 {
+  gap: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.mac-book-pro141-star11 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.mac-book-pro141-text18 {
+  color: var(--dl-color-default-grayneutral);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-text19 {
+  color: var(--dl-color-default-grayneutral);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-group162728 {
+  top: 431px;
+  left: 79px;
+  width: 419px;
+  height: 163px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.mac-book-pro141image32125901 {
+  top: 34px;
+  left: 311px;
+  width: 100px;
+  height: 95px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-text20 {
+  top: 40px;
+  left: 40px;
+  color: var(--dl-color-black-lighter);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-frame452 {
+  gap: 48px;
+  top: 99px;
+  left: 40px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.mac-book-pro141-frame442 {
+  gap: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.mac-book-pro141-star12 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.mac-book-pro141-text21 {
+  color: var(--dl-color-default-grayneutral);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-text22 {
+  color: var(--dl-color-default-grayneutral);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-group162729 {
+  top: 431px;
+  left: 546px;
+  width: 419px;
+  height: 163px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.mac-book-pro141-rupeedynamiccolor {
+  top: 32px;
+  left: 311px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-text23 {
+  top: 40px;
+  left: 32px;
+  color: var(--dl-color-black-lighter);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-frame453 {
+  gap: 48px;
+  top: 99px;
+  left: 39px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.mac-book-pro141-frame443 {
+  gap: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.mac-book-pro141-star13 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.mac-book-pro141-text24 {
+  color: var(--dl-color-default-grayneutral);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-text25 {
+  color: var(--dl-color-default-grayneutral);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-group162730 {
+  top: 431px;
+  left: 1007px;
+  width: 419px;
+  height: 163px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.mac-book-pro141-engineer863867668762241 {
+  top: 32px;
+  left: 311px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-text26 {
+  top: 40px;
+  left: 40px;
+  color: var(--dl-color-black-lighter);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-frame454 {
+  gap: 48px;
+  top: 99px;
+  left: 40px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.mac-book-pro141-frame444 {
+  gap: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.mac-book-pro141-star14 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.mac-book-pro141-text27 {
+  color: var(--dl-color-default-grayneutral);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-text28 {
+  color: var(--dl-color-default-grayneutral);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-group162731 {
+  top: 642px;
+  left: 79px;
+  width: 419.1700134277344px;
+  height: 163px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.mac-book-pro141-writing394334032680651 {
+  top: 31px;
+  left: 311px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-text29 {
+  top: 40px;
+  left: 40px;
+  color: var(--dl-color-black-lighter);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-frame455 {
+  gap: 48px;
+  top: 99px;
+  left: 40px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.mac-book-pro141-frame445 {
+  gap: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.mac-book-pro141-star15 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.mac-book-pro141-text30 {
+  color: var(--dl-color-default-grayneutral);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-text31 {
+  color: var(--dl-color-default-grayneutral);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-group162732 {
+  top: 642px;
+  left: 546px;
+  width: 419.1700134277344px;
+  height: 163px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.mac-book-pro141-lawbook681512256026361 {
+  top: 40px;
+  left: 311px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-text32 {
+  top: 40px;
+  left: 40px;
+  color: var(--dl-color-black-lighter);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-frame456 {
+  gap: 48px;
+  top: 99px;
+  left: 40px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.mac-book-pro141-frame446 {
+  gap: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.mac-book-pro141-star16 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.mac-book-pro141-text33 {
+  color: var(--dl-color-default-grayneutral);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-text34 {
+  color: var(--dl-color-default-grayneutral);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-group162733 {
+  top: 642px;
+  left: 1007px;
+  width: 419.1700134277344px;
+  height: 163px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.mac-book-pro141-cameradynamiccolor {
+  top: 32px;
+  left: 311px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-text35 {
+  top: 40px;
+  left: 40px;
+  color: var(--dl-color-black-lighter);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-frame457 {
+  gap: 48px;
+  top: 99px;
+  left: 40px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.mac-book-pro141-frame447 {
+  gap: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.mac-book-pro141-star17 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.mac-book-pro141-text36 {
+  color: var(--dl-color-default-grayneutral);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-text37 {
+  color: var(--dl-color-default-grayneutral);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-group162726 {
+  top: 220px;
+  left: 546px;
+  width: 419.1700134277344px;
+  height: 163px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.mac-book-pro141image47565061 {
+  top: 31px;
+  left: 311px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-text38 {
+  top: 40px;
+  left: 40px;
+  color: var(--dl-color-black-lighter);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-text40 {
+  color: var(--dl-color-black-lighter);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-frame458 {
+  gap: 48px;
+  top: 99px;
+  left: 40px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.mac-book-pro141-frame448 {
+  gap: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.mac-book-pro141-star18 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.mac-book-pro141-text42 {
+  color: var(--dl-color-default-grayneutral);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-text43 {
+  color: var(--dl-color-default-grayneutral);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-group162727 {
+  top: 220px;
+  left: 1007px;
+  width: 419.1700134277344px;
+  height: 163px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.mac-book-pro141image3drenderingofsalesmarketingpromotionbadgeicon {
+  top: 31px;
+  left: 311px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-text44 {
+  top: 40px;
+  left: 40px;
+  color: var(--dl-color-black-lighter);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-frame459 {
+  gap: 48px;
+  top: 99px;
+  left: 40px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.mac-book-pro141-frame449 {
+  gap: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.mac-book-pro141-star19 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.mac-book-pro141-text45 {
+  color: var(--dl-color-default-grayneutral);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-text46 {
+  color: var(--dl-color-default-grayneutral);
+  height: auto;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-rightside {
+  top: 1168px;
+  right: 49px;
+  width: 505px;
+  height: 546px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-untitleddesign41 {
+  top: 1234px;
+  right: 49px;
+  width: 505px;
+  height: 480px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-group162739 {
+  top: 1168px;
+  left: 43px;
+  width: 814px;
+  height: 166px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.mac-book-pro141-group162735 {
+  top: 27px;
+  left: 33px;
+  width: 466px;
+  height: 111px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.mac-book-pro141-group1627341 {
+  top: 20px;
+  left: 143px;
+  width: 323px;
+  height: 71px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.mac-book-pro141-text47 {
+  color: rgb(0, 0, 0);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 32px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-text48 {
+  top: 48px;
+  color: rgb(157, 157, 157);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Bk;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-group11 {
+  top: 0px;
+  left: 0px;
+  width: 111px;
+  height: 111px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.mac-book-pro141-ellipse11 {
+  top: 0px;
+  left: 0px;
+  width: 111px;
+  height: 111px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-mask-group1 {
+  top: 26px;
+  left: 26px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.mac-book-pro141-image11 {
+  top: 0px;
+  left: 0px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-rectangle6 {
+  top: 0px;
+  left: -1px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-group162740 {
+  top: 1358px;
+  left: 43px;
+  width: 814px;
+  height: 166px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.mac-book-pro141-group162736 {
+  top: 28px;
+  left: 33px;
+  width: 466px;
+  height: 111px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.mac-book-pro141-group1627342 {
+  top: 20px;
+  left: 143px;
+  width: 323px;
+  height: 71px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.mac-book-pro141-text49 {
+  color: rgb(0, 0, 0);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 32px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-text50 {
+  top: 48px;
+  color: rgb(157, 157, 157);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Bk;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-group12 {
+  top: 0px;
+  left: 0px;
+  width: 111px;
+  height: 111px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.mac-book-pro141-ellipse12 {
+  top: 0px;
+  left: 0px;
+  width: 111px;
+  height: 111px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-mask-group2 {
+  top: 26px;
+  left: 25px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.mac-book-pro141-image12 {
+  top: 0px;
+  left: 0px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-add1 {
+  top: 26px;
+  left: 26px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-group162741 {
+  top: 1548px;
+  left: 43px;
+  width: 814px;
+  height: 166px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.mac-book-pro141-group162737 {
+  top: 27px;
+  left: 33px;
+  width: 466px;
+  height: 111px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.mac-book-pro141-group1627343 {
+  top: 20px;
+  left: 143px;
+  width: 323px;
+  height: 71px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.mac-book-pro141-text51 {
+  color: rgb(0, 0, 0);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Md;
+  font-weight: 400;
+  line-height: 32px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-text52 {
+  top: 48px;
+  color: rgb(157, 157, 157);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: ;
+  text-align: left;
+  font-family: AirbnbCereal_W_Bk;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.mac-book-pro141-group13 {
+  top: 0px;
+  left: 0px;
+  width: 111px;
+  height: 111px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.mac-book-pro141-ellipse13 {
+  top: 0px;
+  left: 0px;
+  width: 111px;
+  height: 111px;
+  position: absolute;
+}
+ 
+.mac-book-pro141-hired1 {
+  top: 26px;
+  left: 26px;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}

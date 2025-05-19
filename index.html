@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="english">
+
+<head>
+  <title>exported project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta property="twitter:card" content="summary_large_image" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../static/assets/bootstrap/css/bootstrap.min.css">
+
+  <style data-tag="reset-style-sheet">
+    html {
+      line-height: 1.15;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      border-width: 0;
+      border-style: solid;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    p,
+    li,
+    ul,
+    pre,
+    div,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    figure,
+    blockquote,
+    figcaption {
+      margin: 0;
+      padding: 0;
+    }
+
+    button {
+      background-color: transparent;
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      font-family: inherit;
+      font-size: 100%;
+      line-height: 1.15;
+      margin: 0;
+    }
+
+    button,
+    select {
+      text-transform: none;
+    }
+
+    button,
+    [type="button"],
+    [type="reset"],
+    [type="submit"] {
+      -webkit-appearance: button;
+      color: inherit;
+    }
+
+    button::-moz-focus-inner,
+    [type="button"]::-moz-focus-inner,
+    [type="reset"]::-moz-focus-inner,
+    [type="submit"]::-moz-focus-inner {
+      border-style: none;
+      padding: 0;
+    }
+
+    button:-moz-focus,
+    [type="button"]:-moz-focus,
+    [type="reset"]:-moz-focus,
+    [type="submit"]:-moz-focus {
+      outline: 1px dotted ButtonText;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+
+    input {
+      padding: 2px 4px;
+    }
+
+    img {
+      display: block;
+    }
+
+    details {
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+footer{
+    background-color: #667eea !important;
+}
+
+.containercha{
+  color: rgba(255, 255, 255, 1) !important;
+    max-width: 959px !important;
+    margin: 0 16px !important;
+    padding: 0 !important;
+    width: auto !important;
+    text-align: right !important;
+    box-sizing: border-box;
+
+}
+
+
+    [data-thq="accordion"] [data-thq="accordion-content"] {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-in-out;
+      padding: 0;
+    }
+
+    [data-thq="accordion"] details[data-thq="accordion-trigger"][open]+[data-thq="accordion-content"] {
+      max-height: 1000vh;
+    }
+
+    details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {
+      transform: rotate(180deg);
+    }
+
+    html {
+      scroll-behavior: smooth
+    }
+  </style>
+  <style data-tag="default-style-sheet">
+    html {
+      font-family: Inter;
+      font-size: 16px;
+    }
+
+    body {
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      text-transform: none;
+      letter-spacing: normal;
+      line-height: 1.15;
+      color: var(--dl-color-theme-neutral-dark);
+      background: var(--dl-color-theme-neutral-light);
+
+      fill: var(--dl-color-theme-neutral-dark);
+    }
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caprasimo:wght@400&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caprasimo:wght@400&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caprasimo:wght@400&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caprasimo:wght@400&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" />
+</head>
+
+<body>
+  <link rel="stylesheet" href="./style.css" />
+  <div>
+    <link href="./index.css" rel="stylesheet" />
+    <div class="mac-book-pro141-container">
+      <div class="mac-book-pro141-mac-book-pro141"><img alt="Rectangle41426"
+          src="public/external/rectangle41426-7hwm.svg" class="mac-book-pro141-rectangle4" /><span
+          class="mac-book-pro141-text10"><span>Freelancer bo'l</span><br /><span>Izla O'rgan Daromad
+            qil</span><br /></span><span class="mac-book-pro141-text15"><span> Bo'sh vaqtizni bekorga
+            sarflamang,</span><br class="mac-book-pro141-text17" /><span>ko'rsating va yaxshi daromad
+            qiling</span></span>
+        <div class="mac-book-pro141-frame76" style="margin-top: -50px; white-space: nowrap; overflow: hidden; width: 70%;z-index: 1;"><span class="mac-book-pro141-text19"><a href="./index.html" style="list-style:none; color: black !important; box-sizing:border-box; margin:0; position:relative; font-family:Poppins,sans-serif; letter-spacing:.5px; display:inline-block; font-size:var(--bs-nav-link-font-size); text-decoration:none; background:none; border:0; transition:border-bottom 0.3s ease-in-out; color:#040404; padding:.5rem 1rem; font-weight:700; border-bottom: 2px solid transparent;"
+      onmouseover="this.style.borderBottom='2px solid #fff';"
+      onmouseout="this.style.borderBottom='2px solid transparent';">
+      Asosiy sahifa
+    </a></span><span
+            class="mac-book-pro141-text20"><a href="./new/2.html" style="list-style:none; color: black !important; box-sizing:border-box; margin:0; position:relative; font-family:Poppins,sans-serif; letter-spacing:.5px; display:inline-block; font-size:var(--bs-nav-link-font-size); text-decoration:none; background:none; border:0; transition:border-bottom 0.3s ease-in-out; color:#050505; padding:.5rem 1rem; font-weight:700; border-bottom: 2px solid transparent;"
+      onmouseover="this.style.borderBottom='2px solid #fff';"
+      onmouseout="this.style.borderBottom='2px solid transparent';">
+      Mahorat Darslari
+    </a></span><span
+            class="mac-book-pro141-text21"><a href="#footer" style="list-style:none; color: black !important; box-sizing:border-box; margin:0; position:relative; font-family:Poppins,sans-serif; letter-spacing:.5px; display:inline-block; font-size:var(--bs-nav-link-font-size); text-decoration:none; background:none; border:0; transition:border-bottom 0.3s ease-in-out; color:#0d0c0c; padding:.5rem 1rem; font-weight:700; border-bottom: 2px solid transparent;"
+      onmouseover="this.style.borderBottom='2px solid #fff';"
+      onmouseout="this.style.borderBottom='2px solid transparent';">
+      Bog'lanish📞
+    </a></span></div>
+        <div class="mac-book-pro141-maskgroup"><img alt="object1439" src="public/external/object1439-rp3t.svg"
+            class="mac-book-pro141-object1" /><img alt="object1444" src="public/external/object1444-um.svg"
+            class="mac-book-pro141-object2" /><img alt="IMAGE76cd0b483b6545798431a24f854308f6J25EM711450"
+            src="public/external/image76cd0b483b6545798431a24f854308f6j25em711450-uvol-400w.png"
+            class="mac-book-pro141image76cd0b483b6545798431a24f854308f6j25em71" /></div><img alt="Portal1451"
+          src="public/external/portal1451-t9ra.svg" class="mac-book-pro141-portal1" /><img alt="Portal1452"
+          src="public/external/portal1452-9nje.svg" class="mac-book-pro141-portal2" /><img alt="Portal1453"
+          src="public/external/portal1453-i3k.svg" class="mac-book-pro141-portal3" /><img alt="Portal1454"
+          src="public/external/portal1454-zgez.svg" class="mac-book-pro141-portal4" />
+        <div class="mac-book-pro141-logos"><img alt="Companylogo1457" src="public/external/companylogo1457-mgw9.svg"
+            class="mac-book-pro141-companylogo1" /><img alt="Companylogo1458"
+            src="public/external/companylogo1458-womn.svg" class="mac-book-pro141-companylogo2" /><img
+            alt="Companylogo1459" src="public/external/companylogo1459-n843.svg"
+            class="mac-book-pro141-companylogo3" /><img alt="Companylogo1460"
+            src="public/external/companylogo1460-k76l.svg" class="mac-book-pro141-companylogo4" /><img
+            alt="Companylogo1461" src="public/external/companylogo1461-6jbj.svg"
+            class="mac-book-pro141-companylogo5" /><img alt="Companylogo1462"
+            src="public/external/companylogo1462-hsg.svg" class="mac-book-pro141-companylogo6" /></div>
+        <div class="mac-book-pro141-group77"><span class="mac-book-pro141-text23">~Eng eng yuqori daromad keltiruvchi
+            Hunarlar</span><img alt="Line291465" src="public/external/line291465-ciwr.svg"
+            class="mac-book-pro141-line29" /></div>
+        <div class="mac-book-pro141-frame13213144921"><img alt="Ellipse2691487"
+            src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fGZpZ21hfGVufDB8fHx8MTc0NzIwODQ1N3ww&amp;ixlib=rb-4.1.0&amp;w=200"
+            class="mac-book-pro141-ellipse2691" /><span class="mac-book-pro141-text24">UI/UX Design</span><span
+            class="mac-book-pro141-text25">$200-500</span><span class="mac-book-pro141-text26">Web Dizayner</span>
+          <div class="mac-book-pro141-group1627241"><img alt="Line281492" src="public/external/line281492-nyv.svg"
+              class="mac-book-pro141-line281" /><span class="mac-book-pro141-text27"><span>Nisbatan
+                oson</span><br /></span></div>
+          <div class="mac-book-pro141-frame311"><span class="mac-book-pro141-text30">Oyiga</span></div>
+          <div class="mac-book-pro141-frame1627251"><span class="mac-book-pro141-text31">Wordpress</span></div>
+          <div class="mac-book-pro141-frame1627261"><span class="mac-book-pro141-text32">Figma</span></div>
+          <div class="mac-book-pro141-frame1627271"><span class="mac-book-pro141-text33">Wirefarming</span></div>
+        </div>
+        <div class="mac-book-pro141-frame1321314493"><img alt="Ellipse2691503"
+            src="https://images.unsplash.com/photo-1612180341933-aedf0a8c7315?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fDNkJTIwZGVzaWdufGVufDB8fHx8MTc0NzE5OTgzMHww&amp;ixlib=rb-4.1.0&amp;w=200"
+            class="mac-book-pro141-ellipse2692" /><span class="mac-book-pro141-text34">Graphic Designer</span><span
+            class="mac-book-pro141-text35">$100-1500</span><span class="mac-book-pro141-text36">Graphic Dizayn</span>
+          <div class="mac-book-pro141-group1627242"><img alt="Line281508" src="public/external/line281508-nlam.svg"
+              class="mac-book-pro141-line282" /><span class="mac-book-pro141-text37"><span>Nisbatan
+                qiyinroq</span><br /></span></div>
+          <div class="mac-book-pro141-frame312"><span class="mac-book-pro141-text40">Oyiga</span></div>
+          <div class="mac-book-pro141-frame1627252"><span class="mac-book-pro141-text41">Canva</span></div>
+          <div class="mac-book-pro141-frame1627262"><span class="mac-book-pro141-text42">Photoshop</span></div>
+          <div class="mac-book-pro141-frame1627272"><span class="mac-book-pro141-text43">Adobe In</span></div>
+        </div>
+        <div class="mac-book-pro141-frame1321314494"><img alt="Ellipse2691519"
+            src="https://images.unsplash.com/photo-1607112812619-182cb1c7bb61?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fHZpZGVvJTIwZWRpdHxlbnwwfHx8fDE3NDcxOTk5NTR8MA&amp;ixlib=rb-4.1.0&amp;w=200"
+            class="mac-book-pro141-ellipse2693" /><span class="mac-book-pro141-text44"><span>Video
+              editor</span><br /></span><span class="mac-book-pro141-text47">$300-1000</span><span
+            class="mac-book-pro141-text48">Video Tahrir</span>
+          <div class="mac-book-pro141-group1627243"><img alt="Line281524" src="public/external/line281524-4xu.svg"
+              class="mac-book-pro141-line283" /><span class="mac-book-pro141-text49"><span>Oson</span><br /></span>
+          </div>
+          <div class="mac-book-pro141-frame313"><span class="mac-book-pro141-text52">Oyiga</span></div>
+          <div class="mac-book-pro141-frame1627253"><span class="mac-book-pro141-text53">Filmora</span></div>
+          <div class="mac-book-pro141-frame1627263"><span class="mac-book-pro141-text54">CapCut</span></div>
+          <div class="mac-book-pro141-frame1627273"><span class="mac-book-pro141-text55">Davinci</span></div>
+        </div>
+        <div class="mac-book-pro141-frame13213144922"><img alt="Ellipse2691487"
+            src="https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDV8fHByb2dyYW1taW5nfGVufDB8fHx8MTc0NzE5OTQ1M3ww&amp;ixlib=rb-4.1.0&amp;w=200"
+            class="mac-book-pro141-ellipse2694" /><span class="mac-book-pro141-text56">Programming</span><span
+            class="mac-book-pro141-text57">$300-2000</span><span class="mac-book-pro141-text58">Dasturlash</span>
+          <div class="mac-book-pro141-group1627244"><img alt="Line281492" src="public/external/line281492-nyv.svg"
+              class="mac-book-pro141-line284" /></div>
+          <div class="mac-book-pro141-frame314"><span class="mac-book-pro141-text59">Oyiga</span></div>
+          <div class="mac-book-pro141-frame1627254"><span class="mac-book-pro141-text60">HTML</span></div>
+          <div class="mac-book-pro141-frame1627264"><span class="mac-book-pro141-text61">CSS</span></div>
+          <div class="mac-book-pro141-frame1627274"><span class="mac-book-pro141-text62">Javascript</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div style="display: flex; justify-content: center; align-items: center; height: 13vh;">
+  <a href="./new/2.html" class="center-button" style="
+    background-color: #667eea;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s ease;
+  ">
+    ➡️Mahorat Darslari 👉
+  </a>
+</div>
+
+    
+<footer id="footer" class="text-center bg-dark" style="align-items: center;text-align: center !important; box-sizing: border-box;
+    padding: 0;
+    margin: 0;  background: linear-gradient(rgb(29,32,30), rgb(29,32,40)), rgb(29,32,40);backdrop-filter: grayscale(0%) invert(0%) saturate(101%);">
+        <div class="containercha text-white py-4 py-lg-5">
+            <ul class="list-inline" style="box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transform: translateX(-4%);
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 0;
+    list-style: none;">
+                <li class="list-inline-item me-4" style="list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    margin-right: 1.5rem !important;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight:400;
+"><a class="link-light" href="https://www.freelancer.com/"  style="list-style:none; box-sizing:border-box; margin:0; position:relative; font-family:Poppins,sans-serif; letter-spacing:.5px; display:inline-block; font-size:var(--bs-nav-link-font-size); text-decoration:none; background:none; border:0; transition:border-bottom 0.3s ease-in-out; color:#fff; padding:.5rem 1rem; font-weight:700; border-bottom: 2px solid transparent;"
+      onmouseover="this.style.borderBottom='2px solid #fff';"
+      onmouseout="this.style.borderBottom='2px solid transparent';">Freelance</a></li>
+                <li class="list-inline-item me-4" style="list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    margin-right: 1.5rem !important;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight:400;"><a class="link-light" href="https://www.freelancer.com/"  style="list-style:none; box-sizing:border-box; margin:0; position:relative; font-family:Poppins,sans-serif; letter-spacing:.5px; display:inline-block; font-size:var(--bs-nav-link-font-size); text-decoration:none; background:none; border:0; transition:border-bottom 0.3s ease-in-out; color:#fff; padding:.5rem 1rem; font-weight:700; border-bottom: 2px solid transparent;"
+      onmouseover="this.style.borderBottom='2px solid #fff';"
+      onmouseout="this.style.borderBottom='2px solid transparent';">Upwork</a></li>
+                <li class="list-inline-item" style="list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight:400;"><a class="link-light" href="https://www.fiverr.com/" style="list-style:none; box-sizing:border-box; margin:0; position:relative; font-family:Poppins,sans-serif; letter-spacing:.5px; display:inline-block; font-size:var(--bs-nav-link-font-size); text-decoration:none; background:none; border:0; transition:border-bottom 0.3s ease-in-out; color:#fff; padding:.5rem 1rem; font-weight:700; border-bottom: 2px solid transparent;"
+      onmouseover="this.style.borderBottom='2px solid #fff';"
+      onmouseout="this.style.borderBottom='2px solid transparent';">Fiverr</a></li>
+            </ul>
+            <ul class="list-inline" style="box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    transform: translateX(30%);
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 0;
+    list-style: none;
+    ">
+                <li class="list-inline-item me-4" style="list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin-right: 2rem !important;
+    margin: 0;
+    display: inline-block;"><a href="" style="list-style:none; box-sizing:border-box; margin:0; position:relative; font-family:Poppins,sans-serif; letter-spacing:.5px; display:inline-block; font-size:var(--bs-nav-link-font-size); text-decoration:none; background:none; border:0; transition:border-bottom 0.3s ease-in-out; color:#fff; padding:.5rem 1rem; font-weight:700; border-bottom: 2px solid transparent;"
+      onmouseover="this.style.borderBottom='2px solid #fff';"
+      onmouseout="this.style.borderBottom='2px solid transparent';"><i  class="fa fa-telegram"></i></a></li>
+                <li class="list-inline-item me-4" style="list-style: none;
+    box-sizing: border-box;
+    margin-right: 2rem !important;
+    padding: 0;
+    margin: 0;
+    display: inline-block;"><a href="" style="list-style:none; box-sizing:border-box; margin:0; position:relative; font-family:Poppins,sans-serif; letter-spacing:.5px; display:inline-block; font-size:var(--bs-nav-link-font-size); text-decoration:none; background:none; border:0; transition:border-bottom 0.3s ease-in-out; color:#fff; padding:.5rem 1rem; font-weight:700; border-bottom: 2px solid transparent;"
+      onmouseover="this.style.borderBottom='2px solid #fff';"
+      onmouseout="this.style.borderBottom='2px solid transparent';"><i class="fa fa-whatsapp"></i></a></li>
+                <li class="list-inline-item" style="
+                list-style: none;
+    box-sizing: border-box;
+    margin-right: 2rem !important;
+    padding: 0;
+    margin: 0;
+    display: inline-block;"><a href="" style="list-style:none; box-sizing:border-box; margin:0; position:relative; font-family:Poppins,sans-serif; letter-spacing:.5px; display:inline-block; font-size:var(--bs-nav-link-font-size); text-decoration:none; background:none; border:0; transition:border-bottom 0.3s ease-in-out; color:#fff; padding:.5rem 1rem; font-weight:700; border-bottom: 2px solid transparent;"
+      onmouseover="this.style.borderBottom='2px solid #fff';"
+      onmouseout="this.style.borderBottom='2px solid transparent';"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+            <p class="text-muted mb-0" style="border-color: var(--bs-secondary-bg);"><span style="color: rgb(255, 255, 255);">Copyright © 2025 Barcha Huquqlar Himoyalangan</span></p>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
